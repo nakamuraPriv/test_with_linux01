@@ -6,7 +6,7 @@ import System.Random
 import Control.Exception
 import Control.Monad
 import Data.Char
-
+-- テスト用コメント
 data Operation = Operaiton{
     operationName :: String,
     func :: IO()
