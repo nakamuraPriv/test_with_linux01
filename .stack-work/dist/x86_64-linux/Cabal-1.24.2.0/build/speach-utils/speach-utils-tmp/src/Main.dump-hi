@@ -1,0 +1,350 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-02 23:31:43.550607 UTC
+
+interface main@main:Main 8002
+  interface hash: 44046f561d965092d3ace60638a4f7a7
+  ABI hash: ddd760c02404756d4dcd5d7f3217df1f
+  export-list hash: 8836c37e5a4a4fff5f9704f7f77f4225
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: c3b501c14347ec21cb985f9eb65e8eb4
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: array-0.5.1.1@array-0.5.1.1 base-4.9.1.0*
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog*
+                      time-1.6.0.1@time-1.6.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:Control.Exception a76dd9666251322fe34dbcca3a0817bf
+import  -/  base-4.9.1.0:Control.Exception.Base 1e106916283856f4d9caeddab92cd861
+import  -/  base-4.9.1.0:Control.Monad a6784c5dab0d75c63dabec5a37843f98
+import  -/  base-4.9.1.0:Data.Char 01433d23661edb6e5ef1536ef1e6774c
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Err 3bba35a16538d33d424682ce66876cdd
+import  -/  base-4.9.1.0:GHC.Exception e38fa3e73d54022fb9e3ce06477dfd07
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO e4a64a8e3dce8616da54f0ee7104f7db
+import  -/  base-4.9.1.0:Text.Read 75c59863e882ebaec4532e9465e2ee9b
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 318df275d77dcdb18e0006d8d7870c2a
+import  -/  random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog:System.Random b21db0c0ea43dc1ad218556cd0b064c7
+13cb025916eb1e32700724f6196b6af1
+  $fShowStudent :: GHC.Show.Show Main.Student
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Student
+                  Main.$fShowStudent_$cshowsPrec
+                  Main.$fShowStudent_$cshow
+                  Main.$fShowStudent_$cshowList -}
+13cb025916eb1e32700724f6196b6af1
+  $fShowStudent1 :: Main.Student -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Main.Student) (w1 :: GHC.Base.String) ->
+                 case w of ww { Main.Student ww1 ww2 ww3 ->
+                 Main.$w$cshowsPrec 0# ww1 ww2 ww3 w1 }) -}
+981d5038d09712481e1d2accbe1af69f
+  $fShowStudent2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Student {"#) -}
+ed639ae4f7748f32cb08f4b960118072
+  $fShowStudent3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+7c61be7c4eea212efc0d89e6f0833d00
+  $fShowStudent4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hasSelected = "#) -}
+76e856aae0966dab382291ed980e8a40
+  $fShowStudent5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "name = "#) -}
+1d34760d160c737000d05ee2ee6989c8
+  $fShowStudent6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+5517cac27d8d696b37c21af5bb9cdefb
+  $fShowStudent7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "student_id = "#) -}
+13cb025916eb1e32700724f6196b6af1
+  $fShowStudent_$cshow :: Main.Student -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(U,1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Main.Student) ->
+                 Main.$fShowStudent_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+13cb025916eb1e32700724f6196b6af1
+  $fShowStudent_$cshowList :: [Main.Student] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Main.Student
+                   Main.$fShowStudent1) -}
+13cb025916eb1e32700724f6196b6af1
+  $fShowStudent_$cshowsPrec ::
+    GHC.Types.Int -> Main.Student -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(U,1*U,1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Main.Student)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Main.Student ww3 ww4 ww5 ->
+                 Main.$w$cshowsPrec ww1 ww3 ww4 ww5 w2 } }) -}
+5250f819888b47d8b29e07334eca3bc5
+  $tc'Operaiton :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18289757104499988324##
+                   4303715912968073416##
+                   Main.$trModule
+                   Main.$tc'Operaiton1) -}
+fa389bbff82a6188b77750c12ca17994
+  $tc'Operaiton1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Operaiton"#) -}
+fc22770db0601f5fd7e80376d8d8c84d
+  $tc'Student :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16249580324283210393##
+                   8347134237040380395##
+                   Main.$trModule
+                   Main.$tc'Student1) -}
+2dc26e9e2e960dd132957adbe0f9dfcd
+  $tc'Student1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Student"#) -}
+a618ac491c3121c1f7570a037916727f
+  $tcOperation :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9881736323809030856##
+                   18093170010824288112##
+                   Main.$trModule
+                   Main.$tcOperation1) -}
+c87ebc4b083b71c904bd04142c18678b
+  $tcOperation1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Operation"#) -}
+8d476fd2631a2283008b5dac0541ae34
+  $tcStudent :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7282733794920659871##
+                   18118971485699306171##
+                   Main.$trModule
+                   Main.$tcStudent1) -}
+fed03b0dde4c47c152c34473223c9617
+  $tcStudent1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Student"#) -}
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+18b9de02232cbd2f65461b85eaedf084
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Integer.Type.Integer
+    -> GHC.Base.String
+    -> GHC.Types.Bool
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 5, Strictness: <S,U><L,U><L,1*U><L,1*U><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Integer.Type.Integer)
+                   (ww2 :: GHC.Base.String)
+                   (ww3 :: GHC.Types.Bool)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Main.$fShowStudent7
+                       (case GHC.Show.$w$cshowsPrec1
+                               0#
+                               ww1
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Main.$fShowStudent6
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Main.$fShowStudent5
+                                     (GHC.Types.:
+                                        @ GHC.Types.Char
+                                        GHC.Show.shows6
+                                        (GHC.Show.showLitString
+                                           ww2
+                                           (GHC.Types.:
+                                              @ GHC.Types.Char
+                                              GHC.Show.shows6
+                                              (GHC.Base.++
+                                                 @ GHC.Types.Char
+                                                 Main.$fShowStudent6
+                                                 (GHC.Base.++
+                                                    @ GHC.Types.Char
+                                                    Main.$fShowStudent4
+                                                    (case ww3 of wild {
+                                                       GHC.Types.False
+                                                       -> GHC.Base.++
+                                                            @ GHC.Types.Char
+                                                            GHC.Show.shows18
+                                                            (GHC.Base.++
+                                                               @ GHC.Types.Char
+                                                               Main.$fShowStudent3
+                                                               x)
+                                                       GHC.Types.True
+                                                       -> GHC.Base.++
+                                                            @ GHC.Types.Char
+                                                            GHC.Show.shows17
+                                                            (GHC.Base.++
+                                                               @ GHC.Types.Char
+                                                               Main.$fShowStudent3
+                                                               x) })))))))) of ww4 { (#,#) ww5 ww6 ->
+                        GHC.Types.: @ GHC.Types.Char ww5 ww6 })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++ @ GHC.Types.Char Main.$fShowStudent2 (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Main.$fShowStudent2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
+545fd80685b0030a594ff396891e27e4
+  data Operation
+    = Operaiton {operationName :: GHC.Base.String,
+                 func :: GHC.Types.IO ()}
+13cb025916eb1e32700724f6196b6af1
+  data Student
+    = Student {student_id :: GHC.Integer.Type.Integer,
+               name :: GHC.Base.String,
+               hasSelected :: GHC.Types.Bool}
+05832eeea972374008546942b9b8c3ee
+  func :: Main.Operation -> GHC.Types.IO ()
+  RecSel Left Main.Operation
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Operation) ->
+                 case ds of wild { Main.Operaiton ds1 ds2 -> ds2 }) -}
+8644c32b82a65089dcefce5d739fec1f
+  hasSelected :: Main.Student -> GHC.Types.Bool
+  RecSel Left Main.Student
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Student) ->
+                 case ds of wild { Main.Student ds1 ds2 ds3 -> ds3 }) -}
+5130dc15f24e4190de804306a5039ff3
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+c1f244e71e0f77886fcf47eb7e7c04f6
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case Main.main3 s of ds1 { (#,#) ipv ipv1 -> Main.main2 ipv }) -}
+ee6c40491fc3d7de79463334122afe56
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U> -}
+d4931f7f837b01f1b867a54763f560e9
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Main.main4
+                   GHC.Types.True
+                   eta) -}
+967677c3c8678af5d505407c2309e69f
+  main4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackAppendCString#
+                   "$$"#
+                   Main.main5) -}
+007729a9938a916243e2b2864a994303
+  main5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCStringUtf8#
+                   "\\229\\135\\166\\231\\144\\134\\227\\130\\146\\233\\129\\184\\230\\138\\158\\227\\129\\151\\227\\129\\166\\227\\129\\143\\227\\129\\160\\227\\129\\149\\227\\129\\132"#) -}
+7dc80fc1436b58df9e35fdee57b72733
+  main6 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+3d7438cfee1b8aa92502cff0f9d1d169
+  name :: Main.Student -> GHC.Base.String
+  RecSel Left Main.Student
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Student) ->
+                 case ds of wild { Main.Student ds1 ds2 ds3 -> ds2 }) -}
+7d7413c235ccf0d132978364ffeddc11
+  operationName :: Main.Operation -> GHC.Base.String
+  RecSel Left Main.Operation
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Operation) ->
+                 case ds of wild { Main.Operaiton ds1 ds2 -> ds1 }) -}
+3fe785a4888dda2449eff90954c37716
+  student_id :: Main.Student -> GHC.Integer.Type.Integer
+  RecSel Left Main.Student
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Student) ->
+                 case ds of wild { Main.Student ds1 ds2 ds3 -> ds1 }) -}
+instance [safe] GHC.Show.Show [Main.Student] = Main.$fShowStudent
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
